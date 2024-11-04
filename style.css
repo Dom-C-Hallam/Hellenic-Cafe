@@ -1,0 +1,35 @@
+/* index main page css*/
+
+.bodymaincolour {
+    background-color: #b5bab6;
+    margin: 0;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.imgmain {
+    height: 100%;
+    width: 100%;
+    mask-image: linear-gradient(to right, transparent 10%, #b5bab6);
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.title {
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.welcome {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
