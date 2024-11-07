@@ -1,4 +1,81 @@
-/* index main page css*/
+.bodymaincolour {
+    background-color: #b5bab6;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.wrapper-main {
+    width: 100%px;
+    margin: 0;
+}
+
+.imgmain {
+    width: 100%;
+    position: relative;
+    align-items: center;
+    /*background-size: 70vh, cover;*/
+    mask-image: linear-gradient(to top, transparent 10%, #b5bab6);
+    margin: 0;
+}
+
+
+.title, .welcome, .intro {
+    text-align: center;
+    display: block;
+    font-family: 'Forum';
+}
+
+.title {
+    font-family: 'Forum';
+    font-size: 4rem;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 60%;
+    border-style: ridge;
+    border-color: black;
+}
+
+
+@media (max-width: 600px) {
+    .wrapper-main {
+        width:100%;
+    }
+
+    .title {
+        font-size: 1rem;
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* index main page css
 
 .bodymaincolour {
     background-color: #b5bab6;
@@ -44,7 +121,7 @@
     padding: 0;
 }
 
-/*.welcome:hover {
+.welcome:hover {
     opacity: 0;
     content: 'ΚΑΛΏΣ ΉΡΘΕΣ';
 }
@@ -64,7 +141,7 @@
 
 .greekwelcome:hover {
     opacity: 1; 
-}*/
+}
 
 .welcome:before {
     content: 'WELCOME';
@@ -89,3 +166,10 @@
         margin-bottom: 40px;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .imgmain {
+        width: 100%;
+        height: auto;
+    }
+}*/
