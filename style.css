@@ -1,9 +1,14 @@
-/*Main page CSS*/
+/*All pages CSS*/
+
+h1, h2, p {
+    font-family: 'Forum', 'Times New Roman', Times, serif;
+}
 
 .bodymaincolour {
     background-color: #b5bab6;
 }
 
+/*Main page CSS*/
 .navbar {
     position: absolute;
     display: flex;
@@ -12,7 +17,7 @@
     top: 0px;
     z-index: 100;
     width: 100%;
-    font-family: 'Forum';
+    font-family: 'Forum', 'Times New Roman', Times, serif;
     font-size: 3rem;
     padding-top: 20px;
     justify-content: space-around;
@@ -42,7 +47,7 @@
 .title, .welcome, .intro {
     text-align: center;
     display: block;
-    font-family: 'Forum';
+    font-family: 'Forum', 'Times New Roman', Times, serif;
 }
 
 .title {
@@ -75,6 +80,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 60%;
+    width: 100%;
 }
 
 /* Main page Media Queries*/
@@ -111,7 +117,7 @@
 
     .intro {
         font-size: 1rem;
-        top: 50%;
+        top: 40%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
@@ -121,14 +127,70 @@
     }
 }
 
+@media (min-width: 601px) {
+    .navbar a {
+        letter-spacing: 1px;
+    }
+    }
 
 /*About Page CSS*/
 
 .wrapper-about {
     width: 100%;
+    text-align: center;
+}
+
+.about-head {
+    padding: 50px;
+}
+
+.about-p {
+    font-size: 1rem;
+    }
+
+.img-about {
+    width: 100%;
+    }
+
+@media (min-width: 601px) {
+    .about-p {
+        font-size: 1.5rem;
+        }
 }
 
 
+@media (min-width: 1400px) {
+
+    .img-about {
+    width: 50%;
+    }
+
+    #img-kneading {
+    float: left;
+    }
+
+    .about-h2 {
+    padding-top: 25px;
+    font-size: 4rem;
+    }
+
+    .about-p {
+    font-size: 2.3rem;
+    }
+
+    #img-flouring {
+    float: right;
+    }
+
+    #img-fresh {
+    float: left;
+    }
+
+    .local-produce {
+    padding-top: 25px;
+    }
+
+}
 
 
 
