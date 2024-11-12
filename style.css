@@ -141,7 +141,7 @@ h1, h2, p {
 }
 
 .about-head {
-    padding: 50px;
+    padding: 70px;
 }
 
 .about-p {
@@ -192,6 +192,47 @@ h1, h2, p {
 
 }
 
+/* CSS for contact page */
+
+.contact-wrapper {
+    padding-top: 90px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #b7bab9;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+
+input[type=submit]:hover {
+    background-color: black;
+    color: white;
+  }
+
+
+.contact-form {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* CSS for category page*/
+
+.cat-wrapper {
+    padding-top: 80px;
+}
 
 
 
@@ -206,10 +247,9 @@ h1, h2, p {
 
 
 
+/* Original Index Main page CSS, might add to laptop version once site is finished to make the home page fancy*/
 
-/* index main page css
-
-.bodymaincolour {
+/*.bodymaincolour {
     background-color: #b5bab6;
     margin: 0;
 }
