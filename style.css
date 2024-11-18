@@ -156,6 +156,10 @@ h1, h2, p {
     .about-p {
         font-size: 1.5rem;
         }
+    .navbar a {
+            font-size: 2rem;
+            letter-spacing: 1px;
+        }
 }
 
 
@@ -188,6 +192,11 @@ h1, h2, p {
 
     .local-produce {
     padding-top: 25px;
+    }
+
+    .navbar a {
+        font-size: 4rem;
+        letter-spacing: 1px;
     }
 
 }
@@ -230,12 +239,71 @@ input[type=submit]:hover {
 
 /* CSS for category page*/
 
-.cat-wrapper {
-    padding-top: 80px;
+
+.products {
+    padding-top: 70px;
+    text-align: center;
 }
 
+.heading {
+    text-align: center;
+}
 
+.heading, h2 {
+    font-family: 'Forum', 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
 
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+    gap: 1.5rem;
+    margin-top: 2rem;
+    font-family: 'Forum', 'Times New Roman', Times, serif;
+}
+
+.products-container .box {
+    position: relative;
+    padding: 10px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    border: solid;
+}
+
+.products-container img {
+    width: 85%;
+    object-fit: contain;
+    object-position: center;
+    padding: 20px;
+    background: #f1f1f1b9; 
+    border: 1px, solid;
+}
+
+.products-container .box .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Forum', 'Times New Roman', Times, serif;
+}
+
+.products-container .box .content span {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+.products-container .box .content a {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+    border: 2px, solid;
+}
+
+.products-container .box .content a:hover {
+    background: #f1f1f1b9; 
+    transition: 0.2s all linear;
+}
 
 
 
