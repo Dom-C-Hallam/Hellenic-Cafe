@@ -8,6 +8,97 @@ h1, h2, p {
     background-color: #b5bab6;
 }
 
+/*Shopping cart CSS*/
+
+.cart-icon, img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 30px;
+}
+
+.cart-tab {
+    width: 400px;
+    background-color: #b5bab6;
+    color: black;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    display: grid;
+    grid-template-rows: 70px 1fr 70px;
+    border: 2px, solid;
+}
+
+.cart-tab, h1 {
+    margin: 0;
+}
+
+.cart-tab .btn {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    bottom: 0;
+}
+
+.cart-tab .btn button {
+    font-family: 'Forum', 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+.cart-tab .list-cart .item img {
+    width: 100%
+}
+
+.cart-tab .list-cart .item {
+    display: grid;
+    grid-template-columns: 70px 150px 50px 1fr;
+    gap: 10px;
+    text-align: center;
+}
+
+.list-cart .quantity span {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.list-cart .quantity span:nth-child(2) {
+    background-color: transparent;
+}
+
+.list-cart .item:nth-child(even) {
+    background-color: #b5bab672;
+}
+
+.list-cart {
+    overflow: auto;
+}
+
+.list-cart::-webkit-scrollbar {
+    width: 0;
+}
+
+/*Cart number CSS*/
+
+.cart-number {
+    font-size: 1rem;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: -20px;
+}
+
 /*Main page CSS*/
 .navbar {
     position: absolute;
@@ -22,6 +113,10 @@ h1, h2, p {
     padding-top: 20px;
     justify-content: space-around;
     margin: auto;
+}
+
+.navbar, img {
+    width: 100%;
 }
 
 .navbar a {
@@ -299,6 +394,23 @@ input[type=submit]:hover {
     color: black;
     border: 2px, solid;
 }
+
+.products-container .box .content button {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+    border: 2px, solid;
+    cursor: pointer;
+    font-family: 'Forum', 'Times New Roman', Times, serif;
+    background-color: transparent;
+}
+
+.products-container .box .content button:hover {
+    background: #f1f1f1b9; 
+    transition: 0.2s all linear;
+}
+
 
 .products-container .box .content a:hover {
     background: #f1f1f1b9; 
