@@ -1,102 +1,18 @@
 /*All pages CSS*/
 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 h1, h2, p {
     font-family: 'Forum', 'Times New Roman', Times, serif;
 }
 
-.bodymaincolour {
+body {
     background-color: #b5bab6;
-}
-
-/*Shopping cart CSS*/
-
-.cart-icon, img {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-    width: 30px;
-}
-
-.cart-tab {
-    width: 400px;
-    background-color: #b5bab6;
-    color: black;
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 1000;
-    display: grid;
-    grid-template-rows: 70px 1fr 70px;
-    border: 2px, solid;
-}
-
-.cart-tab, h1 {
-    margin: 0;
-}
-
-.cart-tab .btn {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    bottom: 0;
-}
-
-.cart-tab .btn button {
-    font-family: 'Forum', 'Times New Roman', Times, serif;
-    cursor: pointer;
-}
-
-.cart-tab .list-cart .item img {
-    width: 100%
-}
-
-.cart-tab .list-cart .item {
-    display: grid;
-    grid-template-columns: 70px 150px 50px 1fr;
-    gap: 10px;
-    text-align: center;
-}
-
-.list-cart .quantity span {
-    display: inline-block;
-    width: 25px;
-    height: 25px;
-    background-color: white;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-.list-cart .quantity span:nth-child(2) {
-    background-color: transparent;
-}
-
-.list-cart .item:nth-child(even) {
-    background-color: #b5bab672;
-}
-
-.list-cart {
-    overflow: auto;
-}
-
-.list-cart::-webkit-scrollbar {
-    width: 0;
-}
-
-/*Cart number CSS*/
-
-.cart-number {
-    font-size: 1rem;
-    display: flex;
-    width: 30px;
-    height: 30px;
-    background-color: white;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    right: -20px;
 }
 
 /*Main page CSS*/
@@ -236,7 +152,7 @@ h1, h2, p {
 }
 
 .about-head {
-    padding: 70px;
+    padding: 120px;
 }
 
 .about-p {
