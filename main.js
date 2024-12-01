@@ -3,7 +3,7 @@ let carts = document.querySelectorAll('.add-cart');
 let products =[
     {
         name: 'Baklava',
-        tag: 'baklava_brown',
+        tag: 'baklavabrown',
         price: 4.50,
         inCart: 0,
     },
