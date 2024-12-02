@@ -253,7 +253,7 @@ input[type=submit]:hover {
 /* ++++++++++++++++ CSS for category page ++++++++++++++++ */
 
 
-.container, .products-container {
+.container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -270,7 +270,7 @@ input[type=submit]:hover {
 /* ++++++++++++++++++++++++++++++++ REQUIRES FIXING ++++++++++++++++++++++++++++++++*/
 
 .products-container {
-    max-width: 650px;
+    max-width: /*650px*/100%;
     justify-content: space-around;
     margin: 0 auto;
     margin-top: 50px;
@@ -278,7 +278,7 @@ input[type=submit]:hover {
 
 .product-header {
     width: 100%;
-    max-width: 650px;
+    max-width: /*650px*/100%;
     display: flex;
     justify-content: flex-start;
     border-bottom: 4px solid black;
@@ -307,11 +307,16 @@ input[type=submit]:hover {
     align-items: center;
 }
 
-.product {
-    width: 15%;
-    border-bottom: 4px solid black;
+.products {
+    width: 100%;
     display: flex;
-    align-items: center;
+    flex-wrap:wrap;
+}
+
+.product {
+    width: 100%;
+    display: flex;
+    
 }
 
 .product img {
@@ -319,25 +324,27 @@ input[type=submit]:hover {
     height: 80px;
 }
 
-.products {
-    width: 100%;
-    /*display: flex;
-    flex-wrap: wrap;*/
-}
-
-.products img
-{
-    width: 80px;
-    height: 80px;
+.product, .price {
+    width: 35%;
+    display: flex;
+    align-items: center;
+    border-bottom: 4px solid black;
 }
 
 .basketTotalTitle {
-    display: flex;
+    display: right;
     justify-content: flex-end;
     width: 100%;
-    padding: 10px 0;
+    padding-bottom: 20px;
 }
 
+/* CART MEDIA QUERIES */
+
+@media (max-width: 425px) {
+    .products-container {
+        font-size: .5rem;
+    }
+}
 
 
 
