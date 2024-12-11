@@ -316,7 +316,11 @@ input[type=submit]:hover {
 .product {
     width: 100%;
     display: flex;
-    
+    border-bottom: 4px solid black;
+}
+
+.item-price {
+    padding-left: 10px;
 }
 
 .product img {
@@ -324,12 +328,14 @@ input[type=submit]:hover {
     height: 80px;
 }
 
-.product, .price {
+.product, .item-price {
     width: 35%;
     display: flex;
-    align-items: center;
+    align-items: right;
     border-bottom: 4px solid black;
 }
+
+
 
 .basketTotalTitle {
     display: right;
@@ -338,118 +344,28 @@ input[type=submit]:hover {
     padding-bottom: 20px;
 }
 
+.clear-cart-btn {
+    padding-top: 30px;
+    text-align: center;
+}
+
+#clear-cart {
+    width: 140px;
+    height: 70px;
+    font-family: 'Forum', 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+
 /* CART MEDIA QUERIES */
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
     .products-container {
         font-size: .5rem;
     }
 }
 
-
-
-
-
-
-
-
-
-
-/* Original Index Main page CSS, might add to laptop version once site is finished to make the home page fancy*/
-
-/*.bodymaincolour {
-    background-color: #b5bab6;
-    margin: 0;
-}
-
-.navbar {
-    text-align: center;
-}
-
-.imgmain {
-    height: 100%;
-    width: 100%;
-    mask-image: linear-gradient(to right, transparent 10%, #b5bab6);
-}
-
-.container {
-    position: relative;
-    text-align: center;
-}
-
-.title {
-    position: absolute;
-    top: 300px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: 'Forum';
-    font-size: 55px;
-    opacity: 60%;
-
-}
-
-.welcome {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: 'Forum';
-    font-size: 30px;
-    letter-spacing: 15px;
-    transition: 1s;
-    margin: 100;
-    padding: 0;
-}
-
-.welcome:hover {
-    opacity: 0;
-    content: 'ΚΑΛΏΣ ΉΡΘΕΣ';
-}
-
-.greekwelcome {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: 'Forum';
-    font-size: 30px;
-    letter-spacing: 15px;
-    opacity: 0; 
-    transition: 1s; 
-    background: transparent;
-}
-
-.greekwelcome:hover {
-    opacity: 1; 
-}
-
-.welcome:before {
-    content: 'WELCOME';
-    font-size: 60px;
-    letter-spacing: 25px;
-    display: inline-block;
-    padding: 3px;
-    transition: 4s;
-}
-
-.welcome:hover:before {
-    content: 'ΚΑΛΏΣ ΉΡΘΕΣ'; 
-    font-size: 60px;
-    letter-spacing: 25px;
-    transition: 4s;
-    animation: grk 5s 1;
-}
-
-@keyframes grk {
-    0% {
-        color: transparent;
-        margin-bottom: 40px;
+@media (max-width: 320px) {
+    .products-container {
+        font-size: .4rem;
     }
 }
-
-@media only screen and (max-width: 768px) {
-    .imgmain {
-        width: 100%;
-        height: auto;
-    }
-}*/

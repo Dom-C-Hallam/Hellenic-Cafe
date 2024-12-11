@@ -164,7 +164,7 @@ function displayCart() {
                 <img src="images/${item.tag}.jpg">
                 <span>${item.name}</span>
             </div>
-            <div class="price">£${item.price}</div>
+            <div class="item-price">£${item.price}</div>
             <div class="quantity">${item.inCart}</div>
             <div class="total">£${item.inCart * item.price}</div>
             `;
@@ -186,3 +186,14 @@ function displayCart() {
 
 onLoadCartNumbers();
 displayCart();
+
+document.getElementById('clear-cart').addEventListener('click', clearCart); 
+
+function clearCart() { 
+localStorage.removeItem('cartNumbers'); 
+localStorage.removeItem('productsInCart'); 
+localStorage.removeItem('totalCost'); 
+document.querySelector('.cart span').textContent = 0; document.querySelector(".products").innerHTML = ''; 
+console.log("Cart has been cleared"); 
+}
+
