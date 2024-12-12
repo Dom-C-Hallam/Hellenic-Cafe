@@ -93,7 +93,55 @@ To try and improve my media query application for this project, I watched the fo
 
 https://www.youtube.com/watch?v=UUjNEMXZA-k&t=362s 
 
-AUTHORS:
+HTML TESTING:
+--------
+
+I ran each page through the W3 validator and addressed the following issues.
+
+HTML LANG.
+META CHAR.
+
+![Screenshot 2024-12-12 205116](https://github.com/user-attachments/assets/f5f8c4fb-9688-4292-bb7c-851f0ae43a4d)
+
+I researched the latest "lang" attribute and changed it to "en-gb" and removed the "/" from the META CHAR. This was consistent across all pages.
+
++ Home:
+
+Testing the home page I found that there was a floating </div> tag, this was removed.
+
+![Screenshot 2024-12-12 210053](https://github.com/user-attachments/assets/b9f20ac0-fc62-4210-8ba1-e800943fd7f1)
+
+There were no other errors on the home page once this had been addressed.
+
+![Screenshot 2024-12-12 210449](https://github.com/user-attachments/assets/598df4ab-1945-468e-9689-af7bc4ede335)
+
++ About:
+
+No errors highlighted.
+
+![Screenshot 2024-12-12 210857](https://github.com/user-attachments/assets/9ec33cb8-6c01-40d3-8562-c8cd89558c80)
+
++ Contact:
+
+No errors highlighted.
+
+![Screenshot 2024-12-12 211036](https://github.com/user-attachments/assets/3eb32c3e-3624-4efb-a2bf-bed206ce1c21)
+
++ Menu:
+
+No errors highlighted.
+
+![Screenshot 2024-12-12 211301](https://github.com/user-attachments/assets/83e68008-5ccb-43a4-9dd7-96c29a0d2fa9)
+
++ Cart:
+
+No errors highlighted.
+
+![Screenshot 2024-12-12 211634](https://github.com/user-attachments/assets/a83596ff-a030-4408-9cd3-9d3a40b0e6d6)
+
+
+
+AUTHOR:
 --------
 
 + Dominic Hallam
