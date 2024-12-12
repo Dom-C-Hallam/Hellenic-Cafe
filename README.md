@@ -139,6 +139,22 @@ No errors highlighted.
 
 ![Screenshot 2024-12-12 211634](https://github.com/user-attachments/assets/a83596ff-a030-4408-9cd3-9d3a40b0e6d6)
 
+CSS TESTING:
+------------
+
++ All Page CSS:
+
+No errors found.
+
+![Screenshot 2024-12-12 211947](https://github.com/user-attachments/assets/9e33501c-8b2c-4a32-990c-dfdbc8e30ba5)
+
++ Home Page CSS:
+
+No errors found.
+
+![Screenshot 2024-12-12 212324](https://github.com/user-attachments/assets/05818414-d5de-4445-9097-d05f11fadf9d)
+
+
 
 
 AUTHOR:
