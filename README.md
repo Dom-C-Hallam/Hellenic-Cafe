@@ -154,7 +154,29 @@ No errors found.
 
 ![Screenshot 2024-12-12 212324](https://github.com/user-attachments/assets/05818414-d5de-4445-9097-d05f11fadf9d)
 
++ About page CSS:
 
+No errors found.
+
+![Screenshot 2024-12-12 213706](https://github.com/user-attachments/assets/fd17c552-5734-4244-af64-9918a2b2c851)
+
++ Contact page CSS:
+
+No errors found.
+
+![Screenshot 2024-12-12 213905](https://github.com/user-attachments/assets/1448ae27-d0de-4223-a4d3-359e414937b8)
+
++ Menu page CSS:
+
+No erros found.
+
+![Screenshot 2024-12-12 214253](https://github.com/user-attachments/assets/0d8b5aa8-2b71-44d7-bad9-d9fe550bdf5b)
+
++ Cart page CSS:
+
+No errors found.
+
+![Screenshot 2024-12-12 215301](https://github.com/user-attachments/assets/87b7853f-ba8c-496d-ab07-e23d58eaad44)
 
 
 AUTHOR:
