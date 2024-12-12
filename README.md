@@ -178,6 +178,13 @@ No errors found.
 
 ![Screenshot 2024-12-12 215301](https://github.com/user-attachments/assets/87b7853f-ba8c-496d-ab07-e23d58eaad44)
 
+JAVASCRIPT TESTING:
+-------------------
+
+Erros found in code on line 122. I attempted to change the code and this caused images to stop showing, the current code allows the site to function as intended.
+
+![Screenshot 2024-12-12 220126](https://github.com/user-attachments/assets/87df8698-67b1-4784-a00f-5cbd6e104792)
+
 
 AUTHOR:
 --------
