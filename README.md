@@ -70,3 +70,31 @@ This page will be empty unless the user has added items to the cart from the men
 You can remove the items and reset the page by clicking the clear cart button.
 
 ![Screenshot 2024-12-12 201852](https://github.com/user-attachments/assets/5c2db4fb-57c1-43c3-91c9-108c3f887885)
+
+
+SOURCES:
+--------
+
++ Shopping cart feature:
+
+This youtube guide was followed to help me build the cart. During the process there were errors that appeared and bits of code had to be changed to enable the function to work properly.
+
+https://www.youtube.com/watch?v=uSk34ZzOnLY&list=PLD9SRxG6ST3G8ZXs1zxjmnqeyNWbt3Tc8 
+
++ Submission form:
+
+To assist me with creating a submission form I looked at W3 school and changed it to suit my site.
+
+https://www.w3schools.com/howto/howto_css_contact_form.asp
+
++ Media Queries:
+
+To try and improve my media query application for this project, I watched the following guide to help me better understand how they work.
+
+https://www.youtube.com/watch?v=UUjNEMXZA-k&t=362s 
+
+AUTHORS:
+--------
+
++ Dominic Hallam
++ dominic.hallam.code@gmail.com
