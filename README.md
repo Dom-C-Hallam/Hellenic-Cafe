@@ -71,6 +71,13 @@ You can remove the items and reset the page by clicking the clear cart button.
 
 ![Screenshot 2024-12-12 201852](https://github.com/user-attachments/assets/5c2db4fb-57c1-43c3-91c9-108c3f887885)
 
++ Responsive site:
+
+I used media queries to ensure the site would change to fit several different devices, I looked at the different break points and made sure the site rearranged itself according to the screen size. I wanted to make sure the site was arranged in a way that would suit whichever way the user was scrolling, mouse/finger etc.
+
+![Screenshot 2024-12-16 200445](https://github.com/user-attachments/assets/6a2275f7-7823-4b48-b8fa-f25a82deea35)
+
+This is an example of one of the media queries. I made sure that the relevant media queries were under specific titles and tried to keep all the relevant bits of code together.
 
 SOURCES:
 --------
