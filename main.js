@@ -1,4 +1,4 @@
-let carts = document.querySelectorAll('.add-cart');
+//let carts = document.querySelectorAll('.add-cart');
 
 let basket = [
 
@@ -82,7 +82,10 @@ let products =[
         inCart: 0,
     },
 
-]
+];
+
+//document.getElementsByClass.onclick('add-btn') = function() {addToBasket()};
+
 function addToBasket(productIndex) {
     let product = products [productIndex]
     basket.push(product);
@@ -93,7 +96,7 @@ function deleteFromBasket(productIndex) {
     basket.slice(product);
 };
 
-addToBasket(3)
+addToBasket(0)
 deleteFromBasket(0)
 
 
