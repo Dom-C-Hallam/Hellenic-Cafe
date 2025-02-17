@@ -84,6 +84,7 @@ let products =[
 
 ];
 
+document.getElementsByClassName("add-to-basket").onCLick = function() {addToBasket()};
 
 function addToBasket(productIndex) {
     let product = products [productIndex]
