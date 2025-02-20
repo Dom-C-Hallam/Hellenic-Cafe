@@ -1,0 +1,397 @@
+/* ++++++++++++++++ All pages CSS ++++++++++++++++ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, p, a {
+    font-family: 'Forum', 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #b5bab6;
+}
+
+header {
+    position: relative;
+}
+
+
+/* ++++++++++++++++ Main page CSS ++++++++++++++++ */
+.navbar {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    top: 0px;
+    z-index: 100;
+    width: 100%;
+    font-family: 'Forum', 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    padding-top: 5px;
+    justify-content: space-around;
+    margin: auto;
+    border: 2px solid;
+}
+
+
+.navbar a {
+    color: black;
+    opacity: 80%;
+    text-decoration: none;
+    letter-spacing: 10px;
+}
+
+.wrapper-main {
+    width: 100%;
+}
+
+.imgmain {
+    width: 100%;
+    position: relative;
+    align-items: center;
+    mask-image: linear-gradient(to top, transparent 10%, #b5bab6);
+    margin: 0;
+    top: 0;
+}
+
+.title, .welcome, .intro {
+    text-align: center;
+    display: block;
+    font-family: 'Forum', 'Times New Roman', Times, serif;
+}
+
+.title {
+    font-size: 4rem;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 60%;
+    border-style: ridge;
+    border-color: black;
+}
+
+.welcome {
+    font-size: 4rem;
+    margin: 0;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 60%;
+}
+
+.intro {
+    font-size: 2rem;
+    margin: 0;
+    position: absolute;
+    top: 125%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 60%;
+    width: 100%;
+}
+
+/* ++++++++++++++++ Main page Media Queries ++++++++++++++++ */
+
+@media (max-width: 600px) {
+    .wrapper-main {
+        width:100%;
+    }
+
+    .navbar {
+        width: 95%;
+        font-size: 1rem;
+    }
+
+    .navbar a {
+        letter-spacing: 1px;
+    }
+
+    .title {
+        font-size: 1rem;
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .welcome {
+        font-size: 1rem;
+        position: absolute;
+        top: 29%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .intro {
+        font-size: 1rem;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .wrapper-container {
+        text-align: center;
+    }
+}
+
+@media (min-width: 601px) {
+    .navbar a {
+        letter-spacing: 1px;
+    }
+}
+
+/* ++++++++++++++++ About Page CSS ++++++++++++++++ */
+
+.wrapper-about {
+    width: 100%;
+    text-align: center;
+}
+
+.about-head {
+    padding: 70px;
+}
+
+.about-p {
+    font-size: 1rem;
+    }
+
+.img-about {
+    width: 100%;
+    }
+
+@media (min-width: 601px) {
+    .about-p {
+        font-size: 1.5rem;
+        }
+    .navbar a {
+            font-size: 2rem;
+            letter-spacing: 1px;
+        }
+}
+
+
+@media (min-width: 1400px) {
+
+    .img-about {
+    width: 50%;
+    }
+
+    #img-kneading {
+    float: left;
+    }
+
+    .about-h2 {
+    padding-top: 25px;
+    font-size: 4rem;
+    }
+
+    .about-p {
+    font-size: 2.3rem;
+    }
+
+    #img-flouring {
+    float: right;
+    }
+
+    #img-fresh {
+    float: left;
+    }
+
+    .local-produce {
+    padding-top: 25px;
+    }
+
+    .navbar a {
+        font-size: 4rem;
+        letter-spacing: 1px;
+    }
+
+}
+
+/* ++++++++++++++++ CSS for contact page ++++++++++++++++ */
+
+.contact-wrapper {
+    padding-top: 90px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #b7bab9;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+
+input[type=submit]:hover {
+    background-color: black;
+    color: white;
+  }
+
+
+.contact-form {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* ++++++++++++++++ CSS for category page ++++++++++++++++ */
+
+.container {
+    text-align: center;
+}
+
+.image {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+.image img {
+    padding: 10px;
+    width: 40%;
+}
+
+/* ++++++++++++++++ CSS for CART page ++++++++++++++++ */
+
+
+.products-container {
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding:20px;
+    border-collapse: collapse;
+    min-width: 75%;
+}
+
+.product-header {
+    width: 90%;
+    max-width: 100%;
+    border-bottom: 4px solid black;
+    margin: 0 auto;
+}
+
+.product-title {
+    width: 40%;
+}
+
+.price {
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.quantity {
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.total {
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.products {
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.product {
+    width: 100%;
+    display: flex;
+    border-bottom: 4px solid black;
+}
+
+.item-price {
+    padding-left: 10px;
+}
+
+.product img {
+    width: 80px;
+    height: 80px;
+}
+
+.product, .item-price {
+    width: 35%;
+    display: flex;
+    align-items: center;
+    border-bottom: 4px solid black;
+}
+
+
+
+.basketTotalTitle {
+    justify-content: flex-end;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.clear-cart-btn {
+    padding-top: 30px;
+    text-align: center;
+}
+
+#clear-cart {
+    width: 140px;
+    height: 70px;
+    font-family: 'Forum', 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+
+.cart-image{
+    width:100px;
+    height:100px;
+    margin: 0 12px;
+    vertical-align: middle;
+}
+
+.cart-body td{
+    vertical-align: middle;
+    height: 100px;
+    padding:16px;
+}
+.cart-body td, .product-header th{
+    text-align: right;
+}
+.cart-body td:first-child, .product-header td:first-child{
+    text-align: left;
+}
+.cart-body tr{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.37);
+}
+.products-container tr{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.37);
+}
+.cart-body tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.11);
+}
+/* CART MEDIA QUERIES */
+
+@media (max-width: 426px) {
+    .products-container {
+        font-size: .5rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .products-container {
+        font-size: .4rem;
+    }
+}

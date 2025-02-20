@@ -6,7 +6,13 @@
     <title>Hellenic Cafe</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./style.css" rel="stylesheet">
+    <link href="styles/style.css" rel="stylesheet">
+    <link href="styles/category.css" rel="stylesheet">
+  <script src="scripts/cart.js"></script>
+  <script src="scripts/main.js"></script>
+
+
+  <script src="scripts/category.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Forum&display=swap" rel="stylesheet">
 </head>
 
@@ -19,80 +25,14 @@
           <a href="./about.html">ABOUT</a>
           <a href="./category.html">MENU</a>
           <a href="./contact.html">CONTACT</a>
-          <a href="./cart.html" class="cart">CART<span>0</span></a>
+          <a href="./cart.html" class="cart">CART - <span id="cart-count">0</span></a>
         </nav>
     </header>
     
-    <div class="container">
-      <div class="image">
-        <img src="images/baklavabrown.jpg" alt="An image of standard Baklava.">
-        <h3>BAKLAVA</h3>
-        <h3>£4.50</h3>
-        <a class="add-cart cart1" href="#">Add to cart</a>
-      </div>
-      <div class="image">
-        <img src="images/baklava.jpg" alt="An image of Pistachio Baklava.">
-        <h3>PISTACHIO BAKLAVA</h3>
-        <h3>£4.50</h3>
-        <a class="add-cart cart2" href="#">Add to cart</a>
-      </div>
-      <div class="image">
-        <img src="images/cheesecake.jpg" alt="An image of cheesecake.">
-        <h3>CHEESECAKE</h3>
-        <h3>£2.50</h3>
-        <a class="add-cart cart3" href="#">Add to cart</a>
-      </div>
-      <div class="image">
-        <img src="images/loukoumades.jpg" alt="An image of loukoumades.">
-        <h3>LOUKOUMADES</h3>
-        <h3>£2.50</h3>
-        <a class="add-cart cart4" href="#">Add to cart</a>
-      </div>
-      <div class="image">
-        <img src="images/spanakopita.jpg" alt="An image of spanakopita.">
-        <h3>SPANAKOPITA</h3>
-        <h3>£3.75</h3>
-        <a class="add-cart cart5" href="#">Add to cart</a>
-      </div>
-      <div class="image">
-        <img src="images/koulourakia.jpg" alt="An image of koulourakia.">
-        <h3>KOULOURAKIA</h3>
-        <h3>£1.75</h3>
-        <a class="add-cart cart6" href="#">Add to cart</a>
-      </div>
-      <div class="image">
-        <img src="images/cappucino.jpg" alt="An image of cappucino.">
-        <h3>CAPPUCINO</h3>
-        <h3>£3.75</h3>
-        <a class="add-cart cart7" href="#">Add to cart</a>
-      </div>
-      <div class="image">
-        <img src="images/coffee.jpg" alt="An image of an americano.">
-        <h3>AMERICANO</h3>
-        <h3>£2.75</h3>
-        <a class="add-cart cart8" href="#">Add to cart</a>
-      </div>
-      <div class="image">
-        <img src="images/latte.jpg" alt="An image of a latte.">
-        <h3>LATTE</h3>
-        <h3>£3.75</h3>
-        <a class="add-cart cart9" href="#">Add to cart</a>
-      </div>
-      <div class="image">
-        <img src="images/frappe.jpg" alt="An image of a frappe.">
-        <h3>FRAPPE</h3>
-        <h3>£3.75</h3>
-        <a class="add-cart cart10" href="#">Add to cart</a>
-      </div>
-      <div class="image">
-        <img src="images/icedtea.jpg" alt="An image of iced tea.">
-        <h3>ICED TEA</h3>
-        <h3>£3.75</h3>
-        <a class="add-cart cart11" href="#">Add to cart</a>
-      </div>
+    <div id="menu-container" class="menu-container">
     </div>
     
-  <script src="main.js"></script>
+
 </body>
 
 </html>

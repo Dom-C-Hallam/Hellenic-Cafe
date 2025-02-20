@@ -5,7 +5,9 @@
     <title>Hellenic Cafe</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./style.css" rel="stylesheet">
+    <script src="scripts/main.js"></script>
+    <script src="scripts/cart.js"></script>
+    <link href="styles/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Forum&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -15,28 +17,38 @@
             <a href="./about.html">ABOUT</a>
             <a href="./category.html">MENU</a>
             <a href="./contact.html">CONTACT</a>
-            <a href="./cart.html" class="cart">CART<span>0</span></a>
+            <a href="./cart.html" class="cart">CART - <span id="cart-count">0</span></a>
         </nav>
     </header>
     
-    <div class="products-container">
-        <div class="product-header">
-            <h5 class="product-title">PRODUCT</h5>
-            <h5 class="price">PRICE</h5>
-            <h5 class="quantity">QUANTITY</h5>
-            <h5 class="total">TOTAL</h5>
-        </div>
+    <table class="products-container">
+        <thead class="product-header">
+        <tr>
+            <th>PRODUCT</th>
+            <th>PRICE</th>
+            <th>QUANTITY</th>
+            <th>TOTAL</th>
+        </tr>
+        </thead>
 
-        <div class="products">
+        <tbody class="cart-body">
         
-        </div>
+        </tbody>
+        <tfoot>
+        <tr>
+            <td></td>
+            <td></td>
+            <td> Basket Total</td>
+            <td id="basketTotal"></td>
+        </tr>
+        </tfoot>
 
-    </div>
+    </table>
 
     <div class="clear-cart-btn">
         <button id="clear-cart">Clear Cart</button>
     </div>
 
-    <script src="main.js"></script>
+
 </body>
 </html>
