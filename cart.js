@@ -65,21 +65,18 @@ let products =[
 
 function addToBasket(name, price) {
 
-    let basket = JSON.parse(sessionStorage.getItem("cart")) || [];
+    let basket = JSON.parse(sessionStorage.getItem("basket")) || [];
     basket.push({ name, price });
     sessionStorage.setItem("basket", JSON.stringify(basket));
     alert(`${name} has been added to the cart!`);
-
-
-    //document.getElementById("bak-brown-msg").innerHTML = "Added to basket!";
 };
 
-function deleteFromBasket(productIndex) {
+console.log(basket);
+
+/*function deleteFromBasket(productIndex) {
     let product = products [productIndex]
     basket.slice(product);
-};
+};*/
 
-/*addToBasket(0)
-deleteFromBasket(0)*/
 
 

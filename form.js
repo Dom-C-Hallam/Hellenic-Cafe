@@ -1,28 +1,19 @@
-/*document.getElementsById("submit").onClick = function() {validateForename()};
+const formName = document.getElementById('name');
+const email = document.getElementById('email');
+const subject = document.getElementById('subject');
+const form = document.getElementById('form');
 
-function validateForename() {
-    let x = document.forms["firstname"].value;
-    if (x == "") {
-        alert("Please fill out required fields");
-        return false
-    }
-}
+const nameError = document.getElementById('name-error');
 
-validateForename()*/
+form.addEventListener('submit', (e) => {
+    if(formName.value === '' || formName.value === null)
+    
+        {
+            let emailCheck = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/; 
+        }
 
-function validateForm() {
-    const fName = document.getElementById("fname").value;
-    const sName = document.getElementById("sname").value;
-    const email = document.getElementById("email").value;
-    const subject = document.getElementById("subject").value;
-
-    const fNameErr = document.getElementById("fname-error")
-    const sNameErr = document.getElementById("sname-error")
-    const emailError = document.getElementById("email-error")
-    const subjectErr = document.getElementById("subject-error")
-
-    fNameErr.textContent = ""; 
-    sNameErr.textContent = ""; 
-    emailError.textContent = "";
-    subjectErr.textContent = ""; 
-}
+        {
+            e.preventDefault();
+            nameError.innerHTML = "Name is required or contains invalid characters";
+        }
+});

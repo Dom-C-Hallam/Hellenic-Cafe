@@ -15,17 +15,22 @@
             <a href="./about.html">ABOUT</a>
             <a href="./category.html">MENU</a>
             <a href="./contact.html">CONTACT</a>
-            <a href="./cart.html" class="cart">CART<span> [0]</span></a>
+            <a href="./cart.html" class="cart">CART</a>
         </nav>
     </header>
     
     <div class="table-container">
         <table>
-            <tr>
-                <th>Product:</th>
-                <th>Price:</th>
-            </tr>
+            <thead>
+                <tr>
+                    <th>Product:</th>
+                    <th>Price:</th>
+                </tr>
+            </thead>
+            <tbody id="cart-tbody">
+            </tbody>
         </table>
+        <h1>Total: £<span id="total-price">0.00</span></h1>
     </div>
 
     
