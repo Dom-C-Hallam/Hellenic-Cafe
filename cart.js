@@ -4,7 +4,7 @@ let basket = [
 
 ];
 
-let products =[
+/*let products =[
     {
         name: 'Baklava',
         price: 4.50,
@@ -60,18 +60,42 @@ let products =[
         price: 3.75,
     },
 
-];
+];*/
 
 
 function addToBasket(name, price) {
+    console.log("hello from add to basket");
+    let product = {name, price};
+    basket.push(product);
 
-    let basket = JSON.parse(sessionStorage.getItem("basket")) || [];
+    for (let i=0; i < basket.length; i++) {
+        console.log(basket[i]);
+    }
+    let basketString = JSON.stringify(basket);
+    console.log(basketString);
+    localStorage.setItem("basket", basketString);
+    /*let basket = JSON.parse(sessionStorage.getItem("basket")) || [];
     basket.push({ name, price });
     sessionStorage.setItem("basket", JSON.stringify(basket));
-    alert(`${name} has been added to the cart!`);
+    alert(`${name} has been added to the cart!`);*/
 };
 
-console.log(basket);
+function displayCart() {
+    console.log("hello from displayCart");
+
+    let currentBasket = localStorage.getItem("basket");
+   
+    let parsedBasket = JSON.parse(currentBasket);
+    console.log(parsedBasket);
+    // Loop through parsedBasket
+    // for each loop add an entry to the table
+    // use the index to get the name and price from parsed basket
+    //
+    let content = document.getElementById("test-container" );
+    content.innerHTML = parsedBasket[0].name;
+
+};
+
 
 /*function deleteFromBasket(productIndex) {
     let product = products [productIndex]
