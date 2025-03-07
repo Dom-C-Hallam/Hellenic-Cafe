@@ -24,7 +24,7 @@
             <thead>
                 <tr>
                     <th>Product:</th>
-                    <th>Price:</th>
+                    <th>Price: [£]</th>
                 </tr>
             </thead>
             <tbody id="cart-tbody">
@@ -33,9 +33,11 @@
         <h1>Total: £<span id="total-price">0.00</span></h1>
     </div>
 
-    
+    <div class="clear-cart-wrapper">
+        <button onClick ="deleteFromBasket()" >Clear Cart</button>
+    </div>
 
-    <div id="test-container" ></div>
+
 
     <script src="cart.js"></script>
 </body>

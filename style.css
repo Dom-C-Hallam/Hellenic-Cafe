@@ -284,17 +284,9 @@ input[type=reset]:hover {
 
 /* ++++++++++++++++ CSS for CART page ++++++++++++++++ */
 
-.clear-cart-btn {
-    padding-top: 30px;
-    text-align: center;
-}
 
-#clear-cart {
-    width: 140px;
-    height: 70px;
-    font-family: 'Forum', 'Times New Roman', Times, serif;
-    font-size: 2rem;
-}
+
+
 
 /* CART MEDIA QUERIES */
 
