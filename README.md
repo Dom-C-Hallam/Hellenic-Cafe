@@ -9,11 +9,11 @@ The project will consist of the following pages:
 * About Page: This page will include information about the business, how it was started, its ethos and a little bit about what the cafe sells.
 * Menu: This page shows all the products available for the customers to select.
 * Contact: On this page you will find a standard contact form.
-* Cart: When you select items on the menu page, they will appear in the cart page. It shows the different items you selected, how many of each items you have selected and the price. There is also a section that shows you the total price. It also features a "clear cart" button that allows you to empty the basket. The cart items are stored using local storage.
+* Cart: When you select items on the menu page, they will appear in the cart page. The user will be able to remove selected items individually or entirely using the relevant buttons.
 
 Features:
 ---------
-The site will consist of different pages that will all center around a Greek theme due to the nature of the Cafe. There will be a modern twist on an 'Ancient Greek' theme with the main aspects of each page having subtle features to draw the customers attention to the product. I intend on adding a "basket function" where the user can select multiple items, add them to a basket where a number will be shown to help the user keep track of how many items they have.
+The site will consist of different pages that will all center around a Greek theme due to the nature of the Cafe. There will be a modern twist on an 'Ancient Greek' theme with the main aspects of each page having subtle features to draw the customers attention to the product. 
 
 Technologies:
 -------------
@@ -35,41 +35,26 @@ When you arrive on the page you will first see the home page. There is a small b
 
 This page breifly describes the business to the customer. The layout of this page will vary depending on the type of device you use. 
 
-![Screenshot 2024-12-12 200953](https://github.com/user-attachments/assets/2bb2e7f5-8f21-4835-be76-ead38c09ec5b)
-
-On a laptop the images are shown side by side, on smaller devices the images and words are shown vertically and in order. This was to try and assist with the readability of the text, ensuring that everything was an appropriate size for the user.
-
-![Screenshot 2024-12-12 201029](https://github.com/user-attachments/assets/d50a78fe-4574-488e-bb16-2402f624e520)
+![Screenshot 2025-03-13 153103](https://github.com/user-attachments/assets/bdacc227-ce88-432a-866b-d8abb68738fa)
 
 + Menu:
 
-This page shows all the available items in the store. The user can scroll up and down and select which item they want to add to their cart by clicking the "Add to cart" text. 
+This page shows all the available items in the store. The user can scroll up and down and select which item they want to add to their cart by clicking the "Add to cart" text. A message will appear letting the user know they have added an item to their cart.
 
-![Screenshot 2024-12-12 201119](https://github.com/user-attachments/assets/442a6796-e98a-493f-8d0e-41973b60494a)
-
-When the user selects their items, the amount will then appear next to the "Cart" option in the navigation bar.
-
-![Screenshot 2024-12-12 201136](https://github.com/user-attachments/assets/8bf0391e-a9de-438d-aa53-359972ee3bc4)
+![Screenshot 2025-03-13 153259](https://github.com/user-attachments/assets/1cb109e0-07a0-495b-8f73-cc2abce51e01)
 
 + Contact:
 
-This is a basic contact form, it will allow the user to enter their details and a small message to the business. 
+This is a basic contact form, it will allow the user to enter their details and a small message to the business. The name and email fields have validation within the HTML so users must enter their name, and a valid email address.
 
-![Screenshot 2024-12-12 201444](https://github.com/user-attachments/assets/7d7c519a-f7c1-4e6c-b523-2fada6d1cd9d)
-
-The submit button changes as the user hovers over it.
-
-![Screenshot 2024-12-12 201453](https://github.com/user-attachments/assets/952dadd7-7089-45fd-a063-41caaf251e57)
+![Screenshot 2025-03-13 153357](https://github.com/user-attachments/assets/c79effd9-a78d-404a-844e-7a3ff4aa2c2b)
 
 + Cart:
 
-This page will be empty unless the user has added items to the cart from the menu page. As described above, the cart page will show which items you have selected, the amount of each of the items you have and the price. 
+This page will be empty unless the user has added items to the cart from the menu page. The user can either delete specific items from the cart using the button next to it. Or clear the cart entirely.
 
-![Screenshot 2024-12-12 201832](https://github.com/user-attachments/assets/d596d5c7-d779-4f2a-b2d2-d2800394b16c)
+![Screenshot 2025-03-13 153506](https://github.com/user-attachments/assets/1e8abf42-8831-4125-a361-b8902186db15)
 
-You can remove the items and reset the page by clicking the clear cart button.
-
-![Screenshot 2024-12-12 201852](https://github.com/user-attachments/assets/5c2db4fb-57c1-43c3-91c9-108c3f887885)
 
 + Responsive site:
 
@@ -84,9 +69,17 @@ SOURCES:
 
 + Shopping cart feature:
 
-This youtube guide was followed to help me build the cart. During the process there were errors that appeared and bits of code had to be changed to enable the function to work properly.
+I used several different links to understand how to build a basic cart feature.
 
-https://www.youtube.com/watch?v=uSk34ZzOnLY&list=PLD9SRxG6ST3G8ZXs1zxjmnqeyNWbt3Tc8 
+https://www.w3schools.com/js/js_arrays.asp - Arrays.
+
+https://www.w3schools.com/js/js_array_methods.asp - Array methods.
+
+https://www.w3schools.com/jsref/event_onclick.asp - onClick events.
+
+https://www.w3schools.com/Js/js_json_parse.asp - JavaScript Parse.
+
+https://www.w3schools.com/jsref/prop_win_localstorage.asp - Local storage.
 
 + Submission form:
 
@@ -188,9 +181,9 @@ No errors found.
 JAVASCRIPT TESTING:
 -------------------
 
-Erros found in code on line 122. I attempted to change the code and this caused images to stop showing, the current code allows the site to function as intended.
+No errors found.
 
-![Screenshot 2024-12-12 220126](https://github.com/user-attachments/assets/87df8698-67b1-4784-a00f-5cbd6e104792)
+![Screenshot 2025-03-13 154007](https://github.com/user-attachments/assets/83d8e45b-a9ec-4243-9002-dc0c415a555a)
 
 
 AUTHOR:

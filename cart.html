@@ -8,35 +8,37 @@
     <link href="./style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Forum&display=swap" rel="stylesheet">
 </head>
-<body>
+<body onload="displayCart()">
     <header>
         <nav class="navbar">
             <a href="./index.html">HOME</a>
             <a href="./about.html">ABOUT</a>
             <a href="./category.html">MENU</a>
             <a href="./contact.html">CONTACT</a>
-            <a href="./cart.html" class="cart">CART<span>0</span></a>
+            <a href="./cart.html" class="cart">CART</a>
         </nav>
     </header>
     
-    <div class="products-container">
-        <div class="product-header">
-            <h5 class="product-title">PRODUCT</h5>
-            <h5 class="price">PRICE</h5>
-            <h5 class="quantity">QUANTITY</h5>
-            <h5 class="total">TOTAL</h5>
-        </div>
-
-        <div class="products">
-        
-        </div>
-
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Product:</th>
+                    <th>Price: [£]</th>
+                </tr>
+            </thead>
+            <tbody id="cart-tbody">
+            </tbody>
+        </table>
+        <h1>Total: £<span id="total-price">0.00</span></h1>
     </div>
 
-    <div class="clear-cart-btn">
-        <button id="clear-cart">Clear Cart</button>
+    <div class="clear-cart-wrapper">
+        <button onClick ="deleteFromBasket()" >Clear Cart</button>
     </div>
 
-    <script src="main.js"></script>
+
+
+    <script src="cart.js"></script>
 </body>
 </html>
