@@ -9,11 +9,11 @@ The project will consist of the following pages:
 * About Page: This page will include information about the business, how it was started, its ethos and a little bit about what the cafe sells.
 * Menu: This page shows all the products available for the customers to select.
 * Contact: On this page you will find a standard contact form.
-* Cart: When you select items on the menu page, they will appear in the cart page. It shows the different items you selected, how many of each items you have selected and the price. There is also a section that shows you the total price. It also features a "clear cart" button that allows you to empty the basket. The cart items are stored using local storage.
+* Cart: When you select items on the menu page, they will appear in the cart page. The user will be able to remove selected items individually or entirely using the relevant buttons.
 
 Features:
 ---------
-The site will consist of different pages that will all center around a Greek theme due to the nature of the Cafe. There will be a modern twist on an 'Ancient Greek' theme with the main aspects of each page having subtle features to draw the customers attention to the product. I intend on adding a "basket function" where the user can select multiple items, add them to a basket where a number will be shown to help the user keep track of how many items they have.
+The site will consist of different pages that will all center around a Greek theme due to the nature of the Cafe. There will be a modern twist on an 'Ancient Greek' theme with the main aspects of each page having subtle features to draw the customers attention to the product. 
 
 Technologies:
 -------------
@@ -181,6 +181,9 @@ No errors found.
 JAVASCRIPT TESTING:
 -------------------
 
+No errors found.
+
+![Screenshot 2025-03-13 154007](https://github.com/user-attachments/assets/83d8e45b-a9ec-4243-9002-dc0c415a555a)
 
 
 AUTHOR:
