@@ -17,6 +17,13 @@ header {
     position: relative;
 }
 
+button {
+    font-family: 'Forum', 'Times New Roman', Times, serif;
+    padding: 12px 20px;
+    border: 5px black;
+    cursor: pointer;
+}
+
 
 /* ++++++++++++++++ Main page CSS ++++++++++++++++ */
 .navbar {
@@ -164,6 +171,21 @@ header {
     width: 100%;
     }
 
+.our-story {
+    border: 2px solid black;
+    padding: 10px;
+    }
+
+.sustainability {
+     border: 2px solid black;
+     padding: 10px;
+    }
+
+.local-produce {
+    border: 2px solid black;
+    padding: 10px;
+    }
+
 @media (min-width: 601px) {
     .about-p {
         font-size: 1.5rem;
@@ -181,9 +203,6 @@ header {
     width: 50%;
     }
 
-    #img-kneading {
-    float: left;
-    }
 
     .about-h2 {
     padding-top: 25px;
@@ -192,14 +211,6 @@ header {
 
     .about-p {
     font-size: 2.3rem;
-    }
-
-    #img-flouring {
-    float: right;
-    }
-
-    #img-fresh {
-    float: left;
     }
 
     .local-produce {
@@ -220,6 +231,16 @@ header {
 }
 
 input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+}
+
+input[type=email], select, textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
