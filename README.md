@@ -5,8 +5,8 @@ ABOUT:
 This is my second project where the aim is to build an interactive website for a local cafe..
 
 The project will consist of the following pages:
-* Home Page: This will introduce the website and it will be set as the first page the user see's so it will need to grab the users attention and set the tone for the rest of the site.
-* About Page: This page will include information about the business, how it was started, its ethos and a little bit about what the cafe sells.
+* Home Page: This will introduce the website and it is  the first page the user see's and it sets the theme for the rest of the site.
+* About Page: This page includes information about the business, how it was started, its ethos and a little bit about what the cafe sells.
 * Menu: This page shows all the products available for the customers to select.
 * Contact: On this page you will find a standard contact form.
 * Cart: When you select items on the menu page, they will appear in the cart page. The user will be able to remove selected items individually or entirely using the relevant buttons.
