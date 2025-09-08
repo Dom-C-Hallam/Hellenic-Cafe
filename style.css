@@ -306,9 +306,6 @@ input[type=reset]:hover {
 /* ++++++++++++++++ CSS for CART page ++++++++++++++++ */
 
 
-
-
-
 /* CART MEDIA QUERIES */
 
 .table-container {
@@ -326,3 +323,95 @@ table {
     text-align: left;
     padding: 8px;
   }
+
+  /* CSS for Burger Menu */
+
+  /* Burger Menu Styles */
+.burger-menu {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1001;
+}
+
+.burger-menu span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: white; /* Adjust color to match your design */
+    margin: 5px 0;
+    transition: all 0.3s ease;
+    transform-origin: center;
+}
+
+/* Burger Animation */
+.burger-menu.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.burger-menu.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.burger-menu.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -6px);
+}
+
+/* Mobile Styles - 590px and below as requested */
+@media (max-width: 590px) {
+    .burger-menu {
+        display: block;
+    }
+
+    .navbar {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 300px;
+        height: 100vh;
+        background-color: #333; /* Adjust to match your navbar background */
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 80px;
+        transition: right 0.3s ease;
+        z-index: 1000;
+        box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+    }
+
+    .navbar.active {
+        right: 0;
+    }
+
+    .navbar a {
+        width: 80%;
+        text-align: center;
+        margin: 10px 0;
+        padding: 15px;
+        border-bottom: 1px solid #555; /* Adjust color as needed */
+    }
+
+    .navbar a.cart {
+        margin-left: 0;
+        margin-top: 20px;
+        border-bottom: none;
+    }
+
+    /* Overlay when menu is open */
+    .navbar.active::before {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: -300px;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0,0,0,0.5);
+        z-index: -1;
+    }
+}

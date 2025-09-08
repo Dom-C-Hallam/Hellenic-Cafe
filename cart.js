@@ -67,3 +67,28 @@ function deleteFromBasket(name, price) {
 }
 
 
+// Burger Menu JavaScript
+
+    const burgerMenu = document.querySelector('.burger-menu');
+    const navbar = document.querySelector('.navbar');
+    
+    burgerMenu.addEventListener('click', () => {
+        burgerMenu.classList.toggle('active');
+        navbar.classList.toggle('active');
+    });
+
+    // Close menu when clicking on overlay
+    navbar.addEventListener('click', (e) => {
+        if (e.target === navbar) {
+            burgerMenu.classList.remove('active');
+            navbar.classList.remove('active');
+        }
+    });
+
+    // Close menu when window is resized above 590px
+    window.addEventListener('resize', () => {
+        if (window.innerWidth > 590) {
+            burgerMenu.classList.remove('active');
+            navbar.classList.remove('active');
+        }
+    });
