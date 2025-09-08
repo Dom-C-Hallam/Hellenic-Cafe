@@ -13,7 +13,7 @@ body {
     background-color: #b5bab6;
 }
 
-.header-wrapper {
+header {
     position: relative;
     min-height: 35px; 
 }
