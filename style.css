@@ -13,13 +13,9 @@ body {
     background-color: #b5bab6;
 }
 
-/*header {
-    position: relative;
-}*/
-
 .header-wrapper {
     position: relative;
-    min-height: 35px; /*60px*/
+    min-height: 35px; 
 }
 
 button {
@@ -369,6 +365,7 @@ table {
 }
 
 /* Media Query for Hamburger Menu - 600px and below */
+
 @media (max-width: 600px) {
     .burger-menu {
         display: block;
@@ -380,7 +377,7 @@ table {
         right: -100%;
         width: 300px;
         height: 100vh;
-        background-color: #b5bab6; /* Adjust to match your navbar background */
+        background-color: #b5bab6; 
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
@@ -400,7 +397,7 @@ table {
         text-align: center;
         margin: 10px 0;
         padding: 15px;
-        border-bottom: 1px solid #555; /* Adjust color as needed */
+        border-bottom: 1px solid #555; 
     }
 
     .navbar a.cart {
