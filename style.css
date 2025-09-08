@@ -13,8 +13,13 @@ body {
     background-color: #b5bab6;
 }
 
-header {
+/*header {
     position: relative;
+}*/
+
+.header-wrapper {
+    position: relative;
+    min-height: 35px; /*60px*/
 }
 
 button {
@@ -344,7 +349,7 @@ table {
     display: block;
     width: 25px;
     height: 3px;
-    background-color: white; /* Adjust color to match your design */
+    background-color: black;
     margin: 5px 0;
     transition: all 0.3s ease;
     transform-origin: center;
@@ -363,8 +368,8 @@ table {
     transform: rotate(-45deg) translate(7px, -6px);
 }
 
-/* Mobile Styles - 590px and below as requested */
-@media (max-width: 590px) {
+/* Media Query for Hamburger Menu - 600px and below */
+@media (max-width: 600px) {
     .burger-menu {
         display: block;
     }
@@ -375,7 +380,7 @@ table {
         right: -100%;
         width: 300px;
         height: 100vh;
-        background-color: #333; /* Adjust to match your navbar background */
+        background-color: #b5bab6; /* Adjust to match your navbar background */
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
@@ -383,6 +388,7 @@ table {
         transition: right 0.3s ease;
         z-index: 1000;
         box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+        font-family: 'Forum', 'Times New Roman', Times, serif;
     }
 
     .navbar.active {
